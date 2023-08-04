@@ -3,45 +3,51 @@
   <head>
     <meta charset="utf-8">
     <title> ADOPTADOG! </title>
-    <style>
-      footer {
-        background-color: darkblue;
-      }
-      </style> 
+    <link rel="stylesheet" type="text/css" href="./styles/styles.css">
   </head>
   <body>
 
     <header>
-      <img src="images/header-image.jpg" alt="image of a dogs face focused on the eye">
-      <img src='images/adoptadog-logo.svg' alt="adoptadog site logo">
-      <p class = header-text> Seattle's premire dog adoption agency</p>
-      <img src="images/cart-icon.svg" alt="a shopping cart icon">
-      <input type="button" value="Checkout">
+      <img class="header-background" src="images/header-image.jpg" alt="image of a dogs face focused on the eye">
+
+      <div class="adoptadog-logo">
+        <img src='images/adoptadog-logo.svg' alt="adoptadog site logo">
+        <p> Seattle's premire dog adoption agency</p>
+      </div>
+
+    <div class="checkout-cart">
+        <img src="images/cart-icon.svg" alt="a shopping cart icon">
+        <input type="button" value="Checkout">
+      </div>
+
+      
     </header>
 
-    <nav>
+    <nav class="top-nav">
       <a href="index.html">Home</a>
-      <p> / </p>
+      <span> / </span>
       <a href="dogs.html">Dogs</a>
-      <p> / </p>
+      <span> / </span>
       <a href="blog.html">Blog</a>
     </nav>
 
-    <article class="main-about">
-      <h3 class=title> Adopt A Dog </h3>
-      <img src='images/home-intro.jpg' width="500" height="500" alt="a person hugging a dog">
-      <p> Iduciendisite quo magnatem iuntum quid quaest ea am,
-        tenderumet adis dolenem quidustrum fuga. Faceaquae estioria
-        derum recuptatur, cum volore, undipsa doloreium hillupta aut
-        es ut alitatuscit ommossum haritatur arum qui officae videbiti
-        corporeium faccull oribus es quidignis ipietus explam sus
-        am aut amet ant fugiatum, utem non reptat ad magnienecto
-        volorent fugia nonsedi gendand itatquos as magnimpor aut
-        molor autatia ad est officimus accae et omnia cus, od qui ate
-      </p>
-    </article>
+    <section class="main-about">
+      <img src='images/home-intro.jpg' alt="a person hugging a dog">
+      <div>
+        <h3 class=title> Adopt A Dog </h3>
+        <p> Iduciendisite quo magnatem iuntum quid quaest ea am,
+          tenderumet adis dolenem quidustrum fuga. Faceaquae estioria
+          derum recuptatur, cum volore, undipsa doloreium hillupta aut
+          es ut alitatuscit ommossum haritatur arum qui officae videbiti
+          corporeium faccull oribus es quidignis ipietus explam sus
+          am aut amet ant fugiatum, utem non reptat ad magnienecto
+          volorent fugia nonsedi gendand itatquos as magnimpor aut
+          molor autatia ad est officimus accae et omnia cus, od qui ate
+        </p>
+      </div>
+    </section>
 
-    <section>
+    <section class="dog-selction">
       <h2 hidden>Main Articles</h2>
 
       <article class="dog-detail">
@@ -108,19 +114,21 @@
         <input type="button" value="Adopt">
       </article>
 
+      <input type="button" value="See More Dogs">
+
     </section>
 
     <footer>
       <img src='images/adoptadog-logo.svg' alt="adoptadog site logo">
       <p>Aborpos nisto inci tet aut que volupti beruptiberro to ex
         esseque invenienihil imaximu scideru ptistiusam consequunt</p>
-        <nav>
+        <nav class="bottom-nav">
           <a href="index.html">Home</a>
-          <p> / </p>
+          <span> / </span>
           <a href="dogs.html">Dogs</a>
-          <p> / </p>
+          <span> / </span>
           <a href="blog.html">Blog</a>
-        </nav>
+        </nav>    
       <p>@ 2018 Adoptadog, LLC | Seattle, WA</p>
     </footer>
   </body>
