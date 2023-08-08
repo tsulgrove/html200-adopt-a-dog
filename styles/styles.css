@@ -21,12 +21,12 @@ body {
 header {
   background-color: black;
   overflow: hidden;
-  height: 30rem;
+  height: 500px;
 }
 
 header .header-background {
     height:auto;
-    width: 100%;
+    width:100%;
 }
 
 header .adoptadog-logo {
@@ -41,7 +41,7 @@ header .adoptadog-logo {
 header .adoptadog-logo p {
   position: absolute;
   color: gold;
-  font-size: 2rem;
+  font-size: 30px;
 }
 
 header .checkout-cart {
@@ -60,8 +60,8 @@ header .checkout-cart img {
 header .checkout-cart input {
   background-color: green;
   display: inline-block;
-  font-size: 1.5rem;
-  padding: 0rem 2rem;
+  font-size: 20px;
+  padding: 0px 30px;
   font-weight: bold;
 }
 
@@ -73,7 +73,7 @@ header .checkout-cart input {
   margin: 0;
   list-style-type: none;
   font-weight: bold;
-  font-size: 2rem;
+  font-size: 25px;
 }
 
 .top-nav a {
@@ -107,11 +107,11 @@ section {
 .main-about h3 {
   color: purple;
   font-weight: bold;
-  font-size: 2rem;
+  font-size: 35px;
 }
 
 .main-about p {
-  font-size: 1.5rem;
+  font-size: 25px;
 }
 
 .blogs {
@@ -121,7 +121,7 @@ section {
 .blogs h3 {
   color: purple;
   font-weight: bold;
-  font-size: 2rem;
+  font-size: 35px;
 }
 
 .blog {
@@ -150,7 +150,7 @@ section {
 }
 
 .blog p {
-  font-size: 1.5rem;
+  font-size: 25px;
 }
 
 
@@ -164,8 +164,8 @@ section {
   display: inline-block;
   width: 100%;
   height: 10%;
-  font-size: 2rem;
-  padding: 0rem 2rem;
+  font-size: 30px;
+  padding: 0px 30px;
   font-weight: bold;
   color: purple
 }
@@ -178,7 +178,7 @@ section {
   display: inline-block;
   width: 20%;
   height: 15%;
-  font-size: 1.5rem;
+  font-size: 20px;
   font-weight: bold;
   color: purple;
 }
@@ -189,7 +189,7 @@ section {
   margin: 1rem;
   border-style: solid;
   border-color: grey;
-  border-width: .1rem;
+  border-width: 1px;
 }
 
 .dog-detail img {
@@ -201,8 +201,8 @@ section {
   display: inline-block;
   width: 100%;
   height: 10%;
-  font-size: 1.5rem;
-  padding: 0rem 2rem;
+  font-size: 20px;
+  padding: 0px 30px;
   font-weight: bold;
   color: white;
 }
@@ -213,17 +213,17 @@ form {
 
 .checkout h2 {
   color: purple;
-  font-size: 3rem;
+  font-size: 50px;
 }
 
 .checkout h3 {
   color: purple;
-  font-size: 3rem;
+  font-size: 50px;
 }
 
 .checkout label, input, select {
   display:block;
-  margin: .5rem;
+  margin: 5px;
 }
 
 .loc {
@@ -231,8 +231,8 @@ form {
 }
 
 .checkout input{
-  font-size: 1rem;
-  height: 20%;
+  font-size:18pt;
+  height:20%;
 }
 
 .checkout input[type=text]{
@@ -245,20 +245,20 @@ form {
 
 .checkout select{
   background-color: white;
-  font-size: 1.5rem;
+  font-size: 20px;
 }
 
 .checkout input[type=submit] {
     background-color: green;
     display: inline-block;
-    font-size: 1.5rem;
-    padding: 0rem 2rem;
+    font-size: 20px;
+    padding: 0px 30px;
     font-weight: bold;
 }
 
 .checkout label {
   color: purple;
-  font-size: 2rem;
+  font-size: 30px;
   font-weight: bold;
 }
 
