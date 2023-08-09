@@ -3,43 +3,52 @@
   <head>
     <meta charset="utf-8">
     <title> ADOPTADOG! </title>
-    <style>
-      footer {
-        background-color: darkblue;
-      }
-      </style> 
+    <link rel="stylesheet" type="text/css" href="./styles/styles.css">
   </head>
   <body>
 
     <header>
-      <img src="images/header-image.jpg" alt="image of a dogs face focused on the eye">
-      <img src='images/adoptadog-logo.svg' alt="adoptadog site logo">
-      <p class = header-text> Seattle's premire dog adoption agency</p>
-      <img src="images/cart-icon.svg" alt="a shopping cart icon">
-      <input type="button" value="Checkout">
+      <img class="header-background" src="images/header-image.jpg" alt="image of a dogs face focused on the eye">
+
+      <div class="adoptadog-logo">
+        <img src='images/adoptadog-logo.svg' alt="adoptadog site logo">
+        <p> Seattle's premire dog adoption agency</p>
+      </div>
+
+    <div class="checkout-cart">
+        <img src="images/cart-icon.svg" alt="a shopping cart icon">
+        <input type="button" value="Checkout">
+      </div>
+
+      
     </header>
 
-    <nav>
+    <nav class="top-nav">
       <a href="index.html">Home</a>
-      <p> / </p>
+      <span> / </span>
       <a href="dogs.html">Dogs</a>
-      <p> / </p>
+      <span> / </span>
       <a href="blog.html">Blog</a>
     </nav>
 
-    <section>
+    <section class="checkout">
       <h2>Checkout</h2>
 
       <form method="post">
 
-        <label>Name<input type="text" name="contactName"></label>
+        <label>Name
+          <input type="text" name="contactName"></label>
 
-        <label>Email Address<input type="email" name="contactEmail"></label>
+        <label>Email Address
+          <input type="email" name="contactEmail"></label>
 
-        <label>Street Address<input type="text" name="contactAddress"></label>
+        <label>Street Address
+          <input type="text" name="contactAddress"></label>
 
-        <label>City<input type="text" name="contactCity"></label>
-
+        <div class="loc">
+        <label>City
+          <input type="text" name="contactCity"></label>
+        </div>
         <label>State
           <select name="contactState" id="contactState">
               <option value="null">Select Location</option>
@@ -97,17 +106,13 @@
           </select>
         </label>
 
-        <label>Zip Code<input type="text" name="contactZip"></label>
+        <label>Zip Code
+          <input type="text" name="contactZip"></label>
 
-        <fieldset>
-          <legend>First Time Adopter?</legend>
-          <label>
-            <input type="radio" name="type" value="yes">Yes
-          </label>
-          <label>
-            <input type="radio" name="type" value="no">No
-          </label>
-        </fieldset>
+        <label>First Time Adopter?</label>
+        <input type="radio" name="type" value="yes">Yes
+        <input type="radio" name="type" value="no">No
+
 
         <label>Pickup Location
           <select name="contactPickup">
@@ -129,13 +134,13 @@
       <img src='images/adoptadog-logo.svg' alt="adoptadog site logo">
       <p>Aborpos nisto inci tet aut que volupti beruptiberro to ex
         esseque invenienihil imaximu scideru ptistiusam consequunt</p>
-        <nav>
+        <nav class="bottom-nav">
           <a href="index.html">Home</a>
-          <p> / </p>
+          <span> / </span>
           <a href="dogs.html">Dogs</a>
-          <p> / </p>
+          <span> / </span>
           <a href="blog.html">Blog</a>
-        </nav>
+        </nav>    
       <p>@ 2018 Adoptadog, LLC | Seattle, WA</p>
     </footer>
   </body>

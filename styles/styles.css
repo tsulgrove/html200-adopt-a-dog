@@ -1,0 +1,289 @@
+* { box-sizing: border-box; }
+
+.modern {font-family: Helvetica, Arial, sans-serif;}
+ /* * { outline: 1px solid red; } */
+
+.hidden {
+  position: relative;
+  left: -1000px;
+  top: auto;
+}
+
+.hidden:focus {
+  left:0
+}
+
+body {
+  position: relative;
+  text-align: left;
+}
+
+header {
+  background-color: black;
+  overflow: hidden;
+  height: 500px;
+}
+
+header .header-background {
+    height:auto;
+    width:100%;
+}
+
+header .adoptadog-logo {
+  position: absolute;
+  display: inline-block;
+  margin: 0;
+  left: 10%;
+  top: 3%;
+  width: 20%;
+}
+
+header .adoptadog-logo p {
+  position: absolute;
+  color: gold;
+  font-size: 30px;
+}
+
+header .checkout-cart {
+  position: absolute;
+  display: inline-block;
+  right: 10%;
+  top: 3%;
+}
+
+header .checkout-cart img {
+  display: block;
+  width: 50%;
+  height: 50%;
+}
+
+header .checkout-cart input {
+  background-color: green;
+  display: inline-block;
+  font-size: 20px;
+  padding: 0px 30px;
+  font-weight: bold;
+}
+
+.top-nav {
+  background: LightGrey;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding-left: 10rem;
+  margin: 0;
+  list-style-type: none;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.top-nav a {
+  display: inline-block;
+}
+
+section {
+  padding-right: 10rem;
+  padding-left: 10rem;
+  overflow: hidden;
+}
+
+.main-about {
+  content:"";
+  display: inline-block;
+  padding-bottom: 5rem;
+}
+
+.main-about img {
+  float: left;
+  height: 50%;
+  width: 30%;
+  padding-right: 3rem;
+}
+
+.main-about div {
+  float: right;
+  width: 70%;
+}
+
+.main-about h3 {
+  color: purple;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.main-about p {
+  font-size: 25px;
+}
+
+.blogs {
+  margin: 5rem 20rem 5rem 20rem;
+}
+
+.blogs h3 {
+  color: purple;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.blog {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 5rem;
+}
+
+.blog img {
+  float: left;
+  height: 50%;
+  width: 30%;
+  padding-right: 3rem;
+}
+
+.blog div {
+  float: right;
+  width: 65%;
+}
+
+.blog h4 {
+  color: purple;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.blog p {
+  font-size: 25px;
+}
+
+
+.dog-selction {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+}
+
+.dog-selction h3 {
+  display: inline-block;
+  width: 100%;
+  height: 10%;
+  font-size: 30px;
+  padding: 0px 30px;
+  font-weight: bold;
+  color: purple
+}
+
+
+.dog-selction input {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: lightgray;
+  display: inline-block;
+  width: 20%;
+  height: 15%;
+  font-size: 20px;
+  font-weight: bold;
+  color: purple;
+}
+
+.dog-detail {
+  max-width: 22%;
+  padding: 1rem;
+  margin: 1rem;
+  border-style: solid;
+  border-color: grey;
+  border-width: 1px;
+}
+
+.dog-detail img {
+  width: 100%;
+}
+
+.dog-detail input {
+  background-color: green;
+  display: inline-block;
+  width: 100%;
+  height: 10%;
+  font-size: 20px;
+  padding: 0px 30px;
+  font-weight: bold;
+  color: white;
+}
+
+form {
+  width: 100%;
+}
+
+.checkout h2 {
+  color: purple;
+  font-size: 50px;
+}
+
+.checkout h3 {
+  color: purple;
+  font-size: 50px;
+}
+
+.checkout label, input, select {
+  display:block;
+  margin: 5px;
+}
+
+.loc {
+  display: inline-block;
+}
+
+.checkout input{
+  font-size:18pt;
+  height:20%;
+}
+
+.checkout input[type=text]{
+  width: 35%;
+}
+
+.checkout input[type=email]{
+  width: 35%;
+}
+
+.checkout select{
+  background-color: white;
+  font-size: 20px;
+}
+
+.checkout input[type=submit] {
+    background-color: green;
+    display: inline-block;
+    font-size: 20px;
+    padding: 0px 30px;
+    font-weight: bold;
+}
+
+.checkout label {
+  color: purple;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+input[type=radio]{
+  background-color: white;
+  display: inline-block;  
+}
+
+footer {
+  color: White;
+  background-color: darkblue; 
+  width: 100%;
+  text-align: center;
+  overflow: hidden;
+}
+
+footer img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 25%;
+}
+
+.bottom-nav a {
+  display: inline-block;
+  color: White;
+}
+
