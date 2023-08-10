@@ -290,6 +290,10 @@ footer img {
   color: White;
 }
 
+.small-transform {
+  display: none;
+}
+
 @media screen and (max-width: 650px) {
   .main-about {
     margin: 0;
@@ -297,9 +301,10 @@ footer img {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+    align-items: center;
   }
 
-  .main-about p, h3, div  {
+  .main-about h3  {
     display: none;
     width: 0%;
   }
@@ -316,6 +321,20 @@ footer img {
 
   .dog-detail {
     width: 100%;
+  }
+  .main-about div{
+    text-align: center;
+  }
+
+  .main-about a{
+    display: inline-block;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .main-about p {
+    display: none;
   }
 }
 
