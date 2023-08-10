@@ -1,7 +1,7 @@
 * { box-sizing: border-box; }
 
 .modern {font-family: Helvetica, Arial, sans-serif;}
-  * { outline: 1px solid red; } 
+ /* * { outline: 1px solid red; } */
 
 .hidden {
   position: relative;
