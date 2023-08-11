@@ -13,11 +13,6 @@
   left:0
 }
 
-body {
-  position: relative;
-  text-align: left;
-}
-
 header {
   background-color: black;
   overflow: hidden;
@@ -294,4 +289,82 @@ footer img {
   display: inline-block;
   color: White;
 }
+
+.small-transform {
+  display: none;
+}
+
+@media screen and (max-width: 650px) {
+  .main-about {
+    margin: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+
+  .main-about h3  {
+    display: none;
+    width: 0%;
+  }
+
+  .main-about img  {  
+    height: 15rem;
+    width: 15rem;
+    padding-right: 0;
+  }
+
+  .dog-selction {
+    flex-direction: column;
+  }
+
+  .dog-detail {
+    width: 100%;
+  }
+  .main-about div{
+    text-align: center;
+  }
+
+  .main-about a{
+    display: inline-block;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .main-about p {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .main-about {
+    margin: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+
+  .main-about img  {  
+    height: 20rem;
+    width: 20rem;
+    padding-right: 0;
+  }
+  
+  .main-about p, h3, div  {
+    float: bottom;
+  }
+
+  .dog-selction {
+    align-items: center;
+    padding: 0%;
+  }
+
+  .dog-detail {
+    max-width: 40%;
+  }
+}
+
 
