@@ -14,14 +14,11 @@
 }
 
 header {
-  background-color: black;
+  background: linear-gradient(black, red);
+  background-size: cover;
+  background-image: url('../images/header-image.jpg');
   overflow: hidden;
   height: 30rem;
-}
-
-header .header-background {
-    height:auto;
-    width: 100%;
 }
 
 header .adoptadog-logo {
