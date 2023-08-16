@@ -1,0 +1,26 @@
+User Personas
+    Name: John Smith
+    Age: 27
+    Occupation: Software Dev
+    Hardware and browsers: iPhone 14 and iOS Safari
+    Other Details: John would likly browse for dogs to adopt while riding public transit to work.
+
+    Name: Jane Fredrico
+    Age: 35
+    Occupation: Product Manager
+    Hardware and browsers: Mackbook Pro and Safari
+    Other Details: Jane would likly browse for dogs while sitting in meetings
+
+    Name: Lauren Whatsherface
+    Age: 30
+    Occupation: Teacher
+    Hardware and browsers: Android and Chrome
+    Other Details: Lauren would browse for dogs at night while watching TV with the SO
+
+Testing
+
+My first test was to load this up in Chrome and Edge.  I noticed that the checkout container was a bit wonky and everything lined up horizontaly instead of stacked on Firefix.
+
+For another OS, I didnt have access for Mac, but I did have a Linux box at work.  It used firefox and looked the same as my local firefox aside from the lag from it being on the east coast.
+
+Testing on my phone blew up the headers with all the elements fighting for the same space.  The blogs didnt scale down as desired either and the text was squished to the right side of the screen.  The checkout form input fields scaled down too much and it was hard to check to input data.

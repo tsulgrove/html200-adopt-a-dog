@@ -44,9 +44,10 @@ header .checkout-cart {
 }
 
 header .checkout-cart img {
+  float: left;
   display: block;
-  width: 50%;
-  height: 50%;
+  width: 40%;
+  height: 40%;
 }
 
 header .checkout-cart input {
@@ -58,10 +59,10 @@ header .checkout-cart input {
 }
 
 header .checkout-cart p {
-color: white;
+  color: white;
   display: inline-block;
-  font-size: 1.5rem;
-  padding: 0rem 2rem;
+  font-size: 1rem;
+  padding: 2rem;
   font-weight: bold;
 }
 
@@ -364,4 +365,7 @@ footer img {
   }
 }
 
-
+.dog-detail-hover {
+  border: .2rem solid yellow;
+  box-shadow: .5rem .5rem .5rem .5rem black;
+}
